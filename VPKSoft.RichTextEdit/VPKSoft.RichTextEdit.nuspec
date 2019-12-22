@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://www.vpksoft.net/2015-03-31-13-33-28/libraries/vpksoft-richtextedit</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>.NET Framawork version change.</releaseNotes>
+    <copyright>Copyright © VPKSoft 2019</copyright>
+    <tags>RichTextEdit VPKSoft Windows Forms Control text editor</tags>
+    <icon>vpksoft_logo.png</icon>
+    <license type="expression">LGPL-3.0-or-later</license>
+  </metadata>
+  <files>
+    <file src="vpksoft_logo.png" target="" />
+  </files>
+</package>
