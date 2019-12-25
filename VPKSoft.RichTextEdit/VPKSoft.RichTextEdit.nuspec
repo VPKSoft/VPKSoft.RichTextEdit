@@ -9,7 +9,7 @@
     <projectUrl>https://www.vpksoft.net/2015-03-31-13-33-28/libraries/vpksoft-richtextedit</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>.NET Framawork version change.</releaseNotes>
+    <releaseNotes>Published the public properties of the RichTextBox to the base control.</releaseNotes>
     <copyright>Copyright © VPKSoft 2019</copyright>
     <tags>RichTextEdit VPKSoft Windows Forms Control text editor</tags>
     <icon>vpksoft_logo.png</icon>

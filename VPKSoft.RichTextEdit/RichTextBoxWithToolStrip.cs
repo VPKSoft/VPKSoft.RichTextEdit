@@ -982,6 +982,37 @@ namespace VPKSoft.RichTextEdit
         /// </summary>
         [Browsable(true), DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
         public new event OnTextChanged TextChanged;
+
+        #region PublishedRtfControl
+        /// <summary>
+        /// Gets or sets the current text in the rich text box.
+        /// </summary>
+        [Browsable(true), DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
+        [Description("Gets or sets the text associated with this control.")]
+        public override string Text { get => rb.Text; set => rb.Text = value; }
+
+        /// <summary>
+        /// Gets or sets the text of the <see cref="T:System.Windows.Forms.RichTextBox" /> control, including all rich text format (RTF) codes.
+        /// </summary>
+        [Browsable(true), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public string Rtf
+        {
+            get => rb.Rtf;
+            set => rb.Rtf = value;
+        }
+
+        /// <summary>
+        /// Gets or sets the currently selected rich text format (RTF) formatted text in the control.
+        /// </summary>
+        [Browsable(true), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public string SelectedRtf { get => rb.SelectedRtf; set => rb.SelectedRtf = value; }
+
+        /// <summary>
+        /// Gets or sets the selected text within the <see cref="T:System.Windows.Forms.RichTextBox" />.
+        /// </summary>
+        [Browsable(true), DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public string SelectedText { get => rb.SelectedText; set => rb.SelectedText = value; }
+        #endregion
     }
 
     /// <summary>
