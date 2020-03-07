@@ -60,6 +60,9 @@ namespace VPKSoft.RichTextEdit
                 SelectionColor = SystemColors.WindowText,
                 AcceptsTab = true
             };
+
+            RichTextBox = rb;
+
             // The default is to accept a Tab key
             rb.LinkClicked += rb_LinkClicked; // start a browser or whatever when a hyperlink is clicked
 
@@ -758,6 +761,10 @@ namespace VPKSoft.RichTextEdit
         /// </summary>
         private Color colorButtonForeground = Color.Black;
 
+        /// <summary>
+        /// Gets the underlying <see cref="RichTextBox"/> control
+        /// </summary>
+        public RichTextBox RichTextBox { get; }
 
         /// <summary>
         /// Gets or set the foreground color used in text edit button icon images.
